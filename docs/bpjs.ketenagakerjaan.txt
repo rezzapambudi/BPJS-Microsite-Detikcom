@@ -1,0 +1,39 @@
+BPJS Ketenagakerjaan
+
+- Produk BPJS
+- Testimonial tentang BPJS
+- TVC 3 menit
+- Lomba Blog
+    Total hadiah 30 jt
+    KPI 150
+    Masa tayang sebulan
+    Banner untuk user blog 500x500.
+- Testimonial twitter
+    Total hadiah 5 juta
+    
+    
+
+Flow Microsite
+
+- Home
+
+    * intro -> wording ajakan mengikuti lomba blog & hadiah
+    * tvc video -> frame
+    * 5 content agregator
+
+- Content Agregator
+    keyword : bpjs ketenagakerjaan
+    tidak dibatasi waktu
+
+- Twitter Testimonial (harapan masyarakat)
+
+- Pendaftaran Lomba Blog
+    Nama
+    Alamat blog
+    Email
+    
+    
+- Listing blog
+    Nama lengkap 
+    Judul
+    Button -> Lihat Postingan
