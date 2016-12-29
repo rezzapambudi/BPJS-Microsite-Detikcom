@@ -57,7 +57,7 @@
             <a href="#" class="btn btn-primary">Selengkapnya</a>       </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
                 <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CpXoAGJ0VnU" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/neXkVDo5Z2g" frameborder="0" allowfullscreen></iframe>
                     </div>
             </div>
         </div>
