@@ -13,8 +13,8 @@
                         <div class="logo">
                             <span><img src="img/logo-flat.png" class="img-responsive" width="55%"></span>
                         </div>
-                        <p>This is a unique & creatively designed layout built in Photoshop with a modern look. All the files are well organized and named as per content. Its very easy to change any part.</p>
-                        <p>Email: youremail@example.com <br> Phone: +1 234 5678 910</p>
+                        <p>Mau jadi peserta BPJS Ketenagakerjaan? Silahkan <a href="https://es.bpjsketenagakerjaan.go.id/bpu-mobile/cekdaftarbaru.zul" target="_blank">klik disini</a> untuk mengisi formulir pendaftaran</p>
+                        <p>Call Center 1500910</p>
                     </div>
                     <!-- Text Widget - End -->
                     <!-- Twitter Widget - Start -->
@@ -37,17 +37,11 @@
                     <!-- Twitter Widget - End -->
                     <!-- Flickr Widget - Start -->
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
-                        <h4>Flickr</h4>
+                        <h4>BPJS Apps</h4>
                         <div class="headul left-align"></div>
                         <div class="row images">
-                            <div class="col-md-3 col-sm-2 col-xs-4"><img alt="flickr-image" src="img/flickr-1.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 col-sm-2 col-xs-4"><img alt="flickr-image" src="img/flickr-2.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 col-sm-2 col-xs-4"><img alt="flickr-image" src="img/flickr-3.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 col-sm-2 col-xs-4"><img alt="flickr-image" src="img/flickr-4.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 col-sm-2 col-xs-4"><img alt="flickr-image" src="img/flickr-5.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 col-sm-2 col-xs-4"><img alt="flickr-image" src="img/flickr-6.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 hidden-sm hidden-xs"><img alt="flickr-image" src="img/flickr-7.jpg" class="img-responsive"></div>
-                            <div class="col-md-3 hidden-sm hidden-xs"><img alt="flickr-image" src="img/flickr-8.jpg" class="img-responsive"></div>
+                            <div class="col-xs-6"><img src="img/available-iphone.png" class="img-responsive"></div>
+                            <div class="col-xs-6"><img src="img/available-iphone.png" class="img-responsive"></div>
                         </div>
                     </div>
                     <!-- Flickr Widget - End -->
@@ -62,11 +56,12 @@
                                 <span class="">Copyright &copy; 2017 detikcom, All right reserved</span>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 social">
-                                <a href="#" class="inviewport animated delay1" data-effect="fadeInUp"><i class="mdi mdi-facebook text-on-primary"></i></a>
-                                <a href="#" class="inviewport animated delay2" data-effect="fadeInUp"><i class="mdi mdi-twitter text-on-primary"></i></a>
-                                <a href="#" class="inviewport animated delay3" data-effect="fadeInUp"><i class="mdi mdi-dribbble text-on-primary"></i></a>
-                                <a href="#" class="inviewport animated delay4" data-effect="fadeInUp"><i class="mdi mdi-google-plus text-on-primary"></i></a>
-                                <a href="#" class="inviewport animated delay5" data-effect="fadeInUp"><i class="mdi mdi-youtube-play text-on-primary"></i></a>
+                                <a href="https://www.facebook.com/BPJSTKinfo/" target="_blank" class="inviewport animated delay1" data-effect="fadeInUp"><i class="mdi mdi-facebook text-on-primary"></i></a>
+                                <a href="https://twitter.com/BPJSTKinfo" target="_blank" class="inviewport animated delay2" data-effect="fadeInUp"><i class="mdi mdi-twitter text-on-primary"></i></a>
+                                <a href="http://www.bpjsketenagakerjaan.go.id/" target="_blank" class="inviewport animated delay3" data-effect="fadeInUp"><i class="mdi mdi-dribbble text-on-primary"></i></a>
+                                <!--
+                                <a href="#" target="_blank" class="inviewport animated delay4" data-effect="fadeInUp"><i class="mdi mdi-google-plus text-on-primary"></i></a> -->
+                                <a href="https://www.youtube.com/user/BPJSTKinfo" target="_blank" class="inviewport animated delay5" data-effect="fadeInUp"><i class="mdi mdi-youtube-play text-on-primary"></i></a>
                             </div>
                         </div>
                     </div>

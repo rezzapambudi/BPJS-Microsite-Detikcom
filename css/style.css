@@ -953,7 +953,6 @@ section.header .container .logo span {
 
 section.header .container .logo span:after {
     content: " ";
-    background-color: #ffc107;
     width: 30px;
     height: 4px;
     margin-top: 10px;

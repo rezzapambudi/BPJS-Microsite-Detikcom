@@ -69,7 +69,7 @@
     <div class='header-logo-wrap'>
         <div class="container">
             <div class="logo col-xs-2">
-                <span><img src="img/logo-flat.png" style="max-width:150px;"></span>
+                <span><img src="img/logo.png" style="max-width:240px;"></span>
             </div>
             <div class="menu-mobile col-xs-10 pull-right cssmenu">
                 <i class="mdi mdi-menu menu-toggle"></i>
