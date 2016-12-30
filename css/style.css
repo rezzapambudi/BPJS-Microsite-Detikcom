@@ -71,12 +71,12 @@ html {
 
 body {
     background-color: #FFFFFF;
-    color: #212121;
+    color: #4c4a4a;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px !important;
     margin: 0px !important;
-    line-height: 28px;
+    line-height: 24px;
     font-style: normal;
     font-weight: normal;
     overflow-x: hidden;
@@ -278,7 +278,7 @@ section .subheading {
     text-align: center;
     font-size: 18px;
     line-height: 35px;
-    padding: 0px 50px 100px 50px;
+    padding: 0px 50px 60px 50px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -335,7 +335,7 @@ section.full-width .container {
 section .container {
     position: relative;
     z-index: 20;
-    padding: 125px 15px;
+    padding: 50px 15px;
     /*       border-right: 1px solid #ff00ff;
        border-left: 1px solid #ff00ff;*/
 }
@@ -445,7 +445,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0px 0 15px 0;
+    margin: 0px 0 3px 0;
     font-weight: 700;
     color: #212121;
 }
@@ -468,7 +468,7 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .h5,
@@ -523,8 +523,8 @@ section.bg-primary p {
 
     .h4,
     h4 {
-        font-size: 21px;
-        line-height: 35px;
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .h5,
@@ -574,8 +574,8 @@ section.bg-primary p {
 
     .h4,
     h4 {
-        font-size: 21px;
-        line-height: 35px;
+        font-size: 13px;
+        line-height: 20px;
     }
 
     .h5,
@@ -613,7 +613,7 @@ section.bg-primary p {
 
     .h2,
     h2 {
-        font-size: 32px;
+        font-size: 20px;
         line-height: 50px;
     }
 
@@ -667,6 +667,7 @@ section.bg-primary p {
         font-size: 16px;
         line-height: 28px;
     }
+    .logone{max-width: 115px !important;}
 
 }
 
@@ -901,7 +902,7 @@ section.bg-primary p {
 .angled_down_inside.lightgray,
 .angled_down_inside.lightgray .slope.upright,
 .angled_down_inside.lightgray .slope.upleft {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 
 .angled_down_inside.black,
@@ -3057,7 +3058,7 @@ section#pricing .angled_down_outside{
 -----------------------------------*/
 
 .blog .info .title {
-    line-height: 36px;
+    line-height: 28px;
     text-transform: uppercase;
     height: auto;
     width: auto;
@@ -4081,7 +4082,7 @@ form input {
     border: 1px solid rgba(255, 255, 255, 0.5);
     height: 50px;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 form textarea {
@@ -4389,7 +4390,7 @@ section.twitter li {
 }
 
 .aturan .litabs {font-weight: 700;font-size: 0.7em;margin-left: 44px;}
-.aturan .litabs span {margin-left:20px;}
+.aturan .litabs div {margin-left:20px;}
 
 
 .client {
@@ -4879,3 +4880,15 @@ body.horizontal section.clients{
 <!--custom-->
 
 .litabs{font-weight: 700;font-size: 0.7em;}
+
+form select {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form select {
+    background-position: 97% 15px;
+}

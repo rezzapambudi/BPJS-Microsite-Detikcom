@@ -14,7 +14,7 @@
                                 
                             </li>
                             <li class='has-sub'>
-                                <a href='#'>Testimonial <i class='mdi'></i></a>
+                                <a href='testimonial.php'>Testimonial <i class='mdi'></i></a>
                                 
                             </li>
                             <!--
@@ -43,16 +43,34 @@
                     <div class='cssmenu'>
                         <!-- Menu - Start -->
                         <ul class='menu-ul'><li class='has-sub'>
-                            <a href='#'>Blog <i class='mdi'></i></a>
+                            <a href='index.php#whatwhyhow'>Blog <i class='mdi'></i></a>
                             
                         </li>
                         <li class='has-sub'>
-                            <a href='#'>Pendaftaran <i class='mdi'></i></a>
+                            <a href='index.php#contact'>Pendaftaran <i class='mdi'></i></a>
                             
                         </li>
                         
                         <li class='has-sub'>
-                            <a href='#'>Hadiah <i class='mdi'></i></a>
+                            <a href='hadiah.php'>Hadiah <i class='mdi'></i></a>
+                            
+                        </li>
+                        <li class='has-sub'>
+                            <a href="#">S &amp; K <i class="mdi mdi-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Syarat &amp; Ketentuan</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal2">Sistem Penjurian</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal3">Periode</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal4">Rekomendasi Tema</a>
+                                </li>
+                            </ul>
                             
                         </li>
                         <!--
@@ -69,7 +87,7 @@
     <div class='header-logo-wrap'>
         <div class="container">
             <div class="logo col-xs-2">
-                <span><img src="img/logo.png" style="max-width:240px;"></span>
+                <span><a href="index.php"><img src="img/logo.png" style="max-width:240px;" class="logone"></a></span>
             </div>
             <div class="menu-mobile col-xs-10 pull-right cssmenu">
                 <i class="mdi mdi-menu menu-toggle"></i>

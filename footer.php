@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Text Widget - Start -->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-widget inviewport animated delay1" data-effect="fadeInUp">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-widget inviewport animated delay1" data-effect="fadeInUp">
                         <div class="logo">
                             <span><img src="img/logo-flat.png" class="img-responsive" width="55%"></span>
                         </div>
@@ -18,6 +18,7 @@
                     </div>
                     <!-- Text Widget - End -->
                     <!-- Twitter Widget - Start -->
+                    <!--
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 twitter-widget inviewport animated delay2" data-effect="fadeInUp">
                         <h4>Twitter</h4>
                         <div class="headul left-align"></div>
@@ -33,15 +34,15 @@
                             <i class="mdi mdi-twitter"></i>
                             <div class="message"><strong>@AmazingDesign</strong> Current design trends of a blog <small>1 hour ago</small></div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- Twitter Widget - End -->
                     <!-- Flickr Widget - Start -->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
+                    <div class="col-lg-5 col-md-5 col-md-offset-2 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
                         <h4>BPJS Apps</h4>
                         <div class="headul left-align"></div>
                         <div class="row images">
-                            <div class="col-xs-6"><img src="img/available-iphone.png" class="img-responsive"></div>
-                            <div class="col-xs-6"><img src="img/available-iphone.png" class="img-responsive"></div>
+                            <a href="https://itunes.apple.com/id/app/bpjstk-mobile/id834834026?l=id&mt=8" target="_blank"><div class="col-xs-6"><img src="img/available-iphone.png" class="img-responsive"></div></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.mitracomm.jamsostek&hl=en" target="_blank"><div class="col-xs-6"><img src="img/googlebutton.png" class="img-responsive"></div></a>
                         </div>
                     </div>
                     <!-- Flickr Widget - End -->
