@@ -2,6 +2,7 @@
     require_once("header.php");
 ?>
     <body class=" angled  yellow">
+        <?php require_once("modal.php"); ?>
         <!-- Section Start - Header -->
         <section class="header bg-lightgray header-small" >
             <!-- Menu Top Bar - Start -->

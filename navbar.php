@@ -59,7 +59,7 @@
                             <a href="#">S &amp; K <i class="mdi mdi-chevron-down"></i></a>
                             <ul>
                                 <li>
-                                    <a href="#" data-toggle="modal" data-target="#myModal">Syarat &amp; Ketentuan</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Mekanisme</a>
                                 </li>
                                 <li>
                                     <a href="#" data-toggle="modal" data-target="#myModal2">Sistem Penjurian</a>
@@ -68,7 +68,7 @@
                                     <a href="#" data-toggle="modal" data-target="#myModal3">Periode</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="modal" data-target="#myModal4">Rekomendasi Tema</a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal4" style="font-size:13px;">Rekomendasi Tema</a>
                                 </li>
                             </ul>
                             

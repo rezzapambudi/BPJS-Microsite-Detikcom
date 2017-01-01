@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .publicaciones-blog-home {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 	background: url("") no-repeat fixed center center;
     background-size: 100% auto;
 	
@@ -191,4 +191,11 @@ body {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.row-page .contenido-publicacion-home .dates {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #51b974;
+    font-weight: bold;
+    display: block;
 }

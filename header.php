@@ -35,6 +35,62 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   		
         <script type="text/javascript" src="js/main.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <!-- smooth scroll -->
+        <script>
+                $(function(){
+
+            var $window = $(window);		//Window object
+
+            var scrollTime = 1.2;			//Scroll time
+            var scrollDistance = 170;		//Distance. Use smaller value for shorter scroll and greater value for longer scroll
+
+            $window.on("mousewheel DOMMouseScroll", function(event){
+
+                event.preventDefault();	
+
+                var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+                var scrollTop = $window.scrollTop();
+                var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+
+                TweenMax.to($window, scrollTime, {
+                    scrollTo : { y: finalScroll, autoKill:true },
+                        ease: Power1.easeOut,	//For more easing functions see http://api.greensock.com/js/com/greensock/easing/package-detail.html
+                        autoKill: true,
+                        overwrite: 5							
+                    });
+
+            });
+
+        });
+        </script>
         
-		
+        <!-- smooth on click -->
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("#daftarsekarang").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 3000, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
     </head>

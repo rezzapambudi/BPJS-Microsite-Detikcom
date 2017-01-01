@@ -613,7 +613,7 @@ section.bg-primary p {
 
     .h2,
     h2 {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 50px;
     }
 
@@ -3018,7 +3018,7 @@ section#pricing .angled_down_outside{
 -----------------------------------*/
 
 .btn {
-    padding: 6px 15px;
+    padding: 6px 0px;
     border-radius: 0px;
     -o-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -3574,7 +3574,9 @@ section.capabilities {
     .pie-info .bg .content h3:after{
         margin: 5px auto 15px auto;
     }
-
+    .jdlvideo {
+    padding-top: 0px !important;   
+}
 
 }
 
@@ -4865,17 +4867,30 @@ body.horizontal section.clients{
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .jdlvideo {
+    padding-top: 0px;   
+}
+    
+}
 
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .jdlvideo {
+    padding-top: 0px;   
+}
+ 
+}
 
 
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    
+    
+}
 
 <!--custom-->
 
@@ -4891,4 +4906,12 @@ form select {
 }
 form select {
     background-position: 97% 15px;
+}
+
+.jdlvideo {
+    padding-top: 50px;   
+}
+
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
 }

@@ -2,6 +2,7 @@
     require_once("header.php");
 ?>
     <body class=" angled  yellow">
+        <?php require_once("modal.php"); ?>
         <!-- Section Start - Header -->
         <section class="header bg-lightgray header-small" >
             <!-- Menu Top Bar - Start -->
@@ -38,116 +39,148 @@
 </section>
 <!-- Section End - Header -->
 <!-- Section Start - Blogs -->
-<section class=' padding-top-100 padding-bottom-0 '>
-    <!-- Angled Section - Start -->
-    <div class="angled_down_inside white">
+ <section class="publicaciones-blog-home" style="background-color:#ffffff;">
+    <div class="angled_down_inside lightgray">
         <div class="slope upleft"></div>
         <div class="slope upright"></div>
     </div>
-    <!-- Angled Section - End -->
-    <div class="container">
-        <div class="row">
-            <!--
-            <h1 class="heading">Latest Blog</h1>
+      <div class="container">
+        <h3 class="heading">Berita BPJS</h3>
             <div class="headul"></div>
-            <p class="subheading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit enean commodo  eget dolor aenean massa eget dolor aenean massa</p>-->
-            <!-- Blog - Start -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog blog_altered blog_left">
-                <div class="row">
-                    <!-- Blog Image - Start -->
-                    <div class=" col-lg-6 col-md-6 col-sm-10 col-xs-12  pic inviewport animated delay1" data-effect="fadeIn">
-                        <img alt="blog-image" class="img-responsive" src="img/blog-medium-1.jpg">
-                    </div>
-                    <!-- Blog Image - End -->
-                    <!-- Blog Info - Start -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 inviewport animated delay1" data-effect="fadeIn">
-                        <div class="info">
-                            <span class="date">24th August 2015</span>
-                            <h4 class="title"><a href="blog-single.html">Melihat Aturan Baru JHT BPJS Ketenagakerjaan yang Ramai Diperbincangkan</a></h4>
-                            <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan. Tak lain karena ada aturan baru yang keluar. </p>
-                            <a class="btn btn-primary text-on-primary"  href="#">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                    <!-- Blog Info - End -->
+        <div class="">
+        
+          <!--<h2 style="font-family: 'Reem Kufi', sans-serif;color:#35b51c;">Berita Hijab Hunt</h2>-->
+          <div class="row-page row" style="font-family: 'Reem Kufi', sans-serif;padding-top: 76px;">
+            <!--
+            <div class="col-page col-sm-8 col-md-6">
+              <a href="" class="black fondo-publicacion-home">
+                <div class="img-publicacion-principal-home">
+                  <img class="undefined" src="" style="width: 300px;height: 400px;background-image: url(&quot;img/artikel.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;">
                 </div>
-            </div>
-            <!-- Blog - End -->
-            <!-- Blog - Start -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog blog_altered blog_right">
-                <div class="row">
-                    <!-- Blog Image - Start -->
-                    <div class=" col-xs-12 col-sm-10 hidden-md hidden-lg  pic inviewport animated delay1" data-effect="fadeIn">
-                        <img alt="blog-image" class="img-responsive" src="img/blog-medium-2.jpg">
-                    </div>
-                    <!-- Blog Image - End -->
-                    <!-- Blog Info - Start -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 inviewport animated delay1" data-effect="fadeIn">
-                        <div class="info">
-                            <span class="date">24th August 2015</span>
-                            <h4 class="title"><a href="blog-single.html">BPJSTK Santuni Keluarga Pekerja yang Tewas di Proyek RS Dr Sardjito</a></h4>
-                            <p>Seorang pekerja bangunan yang sedang bekerja di RSUP Dr Sardjito, Sleman tewas setelah terjatuh dari lantai 7. Ahli waris pekerja tersebut mendapat santunan dari BPJS Ketenagakerjaan (BPJSTK).</p>
-                            <a class="btn btn-primary text-on-primary"  href="#">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                    <!-- Blog Info - End -->
-                    <!-- Blog Image - Start -->
-                    <div class=" col-lg-6 col-md-6 hidden-sm hidden-xs  pic inviewport animated delay1" data-effect="fadeIn">
-                        <img alt="blog-image" class="img-responsive" src="img/blog-medium-2.jpg">
-                    </div>
-                    <!-- Blog Image - End -->
+                <div class="contenido-publicacion-principal-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
                 </div>
-            </div>
-            <!-- Blog - End -->
-            <!-- Blog - Start -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog blog_altered blog_left">
-                <div class="row">
-                    <!-- Blog Image - Start -->
-                    <div class=" col-lg-6 col-md-6 col-sm-10 col-xs-12  pic inviewport animated delay1" data-effect="fadeIn">
-                        <img alt="blog-image" class="img-responsive" src="img/blog-medium-3.jpg">
-                    </div>
-                    <!-- Blog Image - End -->
-                    <!-- Blog Info - Start -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 inviewport animated delay1" data-effect="fadeIn">
-                        <div class="info">
-                            <span class="date">24th August 2015</span>
-                            <h4 class="title"><a href="blog-single.html">Pemprov DKI Tanggung Iuran BPJS Ketenagakerjaan Semua Pekerja Kontraknya</a></h4>
-                            <p>Pemerintah Provinsi DKI Jakarta meneken kerja sama dengan BPJS Ketenagakerjaan. Bentuk kerja sama itu adalah agar para tenaga kontrak menjadi peserta BPJS Ketenagakerjaan.</p>
-                            <a class="btn btn-primary text-on-primary"  href="#">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                    <!-- Blog Info - End -->
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
                 </div>
-            </div>
-            <!-- Blog - End -->
-            <!-- Blog - Start -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog blog_altered blog_right">
-                <div class="row">
-                    <!-- Blog Image - Start -->
-                    <div class=" col-xs-12 col-sm-10 hidden-md hidden-lg  pic inviewport animated delay1" data-effect="fadeIn">
-                        <img alt="blog-image" class="img-responsive" src="img/blog-medium-4.jpg">
-                    </div>
-                    <!-- Blog Image - End -->
-                    <!-- Blog Info - Start -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 inviewport animated delay1" data-effect="fadeIn">
-                        <div class="info">
-                            <span class="date">24th August 2015</span>
-                            <h4 class="title"><a href="blog-single.html">Kabar Gembira, Kini Dana JHT Bisa Cair Kalau PHK Atau Berhenti Kerja</a></h4>
-                            <p>Pemerintah sudah merevisi Peraturan Pemerintah (PP) Nomor 46 tahun 2015 soal Jaminan Hari Tua (JHT). Kini peserta Badan Penyelenggara Jaminan Sosial (BPJS) Ketenagakerjaan bisa mencairkan JHT jika tak lagi bekerja.</p>
-                            <a class="btn btn-primary text-on-primary"  href="#">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                    <!-- Blog Info - End -->
-                    <!-- Blog Image - Start -->
-                    <div class=" col-lg-6 col-md-6 hidden-sm hidden-xs  pic inviewport animated delay1" data-effect="fadeIn">
-                        <img alt="blog-image" class="img-responsive" src="img/blog-medium-4.jpg">
-                    </div>
-                    <!-- Blog Image - End -->
+              </a>
+            </div>-->
+            <div class="col-page col-sm-4 col-md-3">
+              <a href=""  class="fondo-publicacion-home">
+                <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel1.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                  <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
                 </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
             </div>
-            <!-- Blog - End -->
-        </div>
-        <div class="row">
-            <div class="col-xs-12 blog_pagination blog_altered">
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="" class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel2.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                  <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-page col-sm-4 col-md-3">
+              <a href=""  class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel1.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                    <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="" class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel2.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                    <span class="dates">24th August 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="" class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel1.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                    <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="" class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel2.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                    <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="" class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel1.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                    <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="" class="fondo-publicacion-home">
+                  <div class="image"><center><img class="undefined" src="" style="width: 300px;height: 195px;background-image: url(&quot;img/artikel2.jpg&quot;);background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;"></center></div>
+                <div class="contenido-publicacion-home">
+                  <h4 class="tbl">Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</h4>
+                    <span class="dates">24 Agustus 2016</span>
+                  <p>Jaminan Hari Tua (JHT) BPJS Ketenagakerjaan atau yang dulu disebut Jamsostek tengah ramai menjadi perbincangan.<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Selengkapnya</span>
+                </div>
+              </a>
+            </div>
+            <!---
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="#" class="todas-las-publicaciones-home">
+                  <span>Melihat Aturan Baru JHT BPJS Ketenagakerjaan Yang Ramai Diperbincangkan</span>
+              </a>
+            </div>-->
+          </div>
+          <div style="margin-top: 70px;">
+            <center>
+            
+            
                 <ul class="pagination">
                     <li><a href="#">&laquo;</a></li>
                     <li><a href="#">1</a></li>
@@ -157,16 +190,22 @@
                     <li><a href="#">5</a></li>
                     <li><a href="#">&raquo;</a></li>
                 </ul>
-            </div>
+            
+        
+            </center>
+        </div>  
         </div>
+      </div>
+     
     </div>
     <!-- Angled Section - Start -->
     <div class="angled_up_inside white">
         <div class="slope upleft"></div>
         <div class="slope upright"></div>
     </div>
-    <!-- Angled Section - End -->
-</section>
+    </section>
+        
+
 <!-- Section End - Blogs -->
 <!-- Section Start - Footer -->
 <?php require_once("footer2.php");?>

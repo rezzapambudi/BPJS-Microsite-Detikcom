@@ -23,7 +23,7 @@
                     <div class="left-line">
                         <h4>Blogger</h4>
                         <h2>Competition</h2>
-                        <a href="#contact" class="btn btn-primary">Daftar Sekarang</a> 
+                        <a href="#contact" class="btn btn-primary" id="daftarsekarang">Daftar Sekarang</a> 
                     </div>
                 </div>
                 <div class="black-text inviewport animated delay4" data-effect="fadeInLeftBig">
@@ -50,10 +50,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-area">
-                <h2 class="heading left-align" style="font-size: 34px;padding-top: 50px;">Cara Mengikuti Tantangan</h2>
+                <h3 class="heading left-align jdlvideo">Tentang BPJS Ketenagakerjaan</h3>
                 <div class="headul left-align"></div>
                 
-                <p>Menjadi Badan Penyelenggara Jaminan Sosial Kebanggaan Bangsa, yang Amanah, Bertatakelola Baik serta Unggul dalam Operasional dan Pelayanan.</p>
+                <p>Video di samping ini, sekilas informasi daripada BPJS Ketenagakerjaan. Mulai dari perbedaannya dengan JAMSOSTEK yang awalnya persero hingga menjadi layanan publik. Selain bentuk jaminan kerja, juga ada berbagai kemudahan bagi peserta BPJS Ketenagkerjaan.</p> 
+                <p>Informasi yang disampaikan secara singkat ini, tak hanya memberikan banyak manfaat dan keuntungan bagi para pekerja melainkan juga pengusaha. Banyak program mulia lainnya dalam video ini. Lebih jelasnya, tonton hingga selesai.</p>
                 
             <!--<a href="#" class="btn btn-primary">Selengkapnya</a>-->       </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
@@ -184,162 +185,7 @@
 <div class="slope upleft"></div>
 <div class="slope upright"></div>
 </div>		
-<!-- Syarat & ketentuan -->
-<div class="container">
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Syarat &amp; Ketentuan</h4>
-        </div>
-        <div class="modal-body">
-          <div class="edit-list">
-							<ul class="list theme-colored">
-								<ol>
-                        <li class="litabs"><div>Peserta bebas menggunakan platform blog apapun (blogdetik, wordpress, blogspot,kompasiana, selfhosting, dll).</div></li>
-                        <li class="litabs"><div>Peserta wajib like akun FB BPJS Ketenagakerjaan &amp; dan follow Twitter @BPJSTKinfo.</div></li>
-                        <li class="litabs"><div>Peserta harus me-like akun Facebook blogdetik dan follow Twitter @blogdetik.</div></li>
-                        <li class="litabs"><div>Peserta adalah Warga Negara Indonesia dan tidak ada batasan usia.</div></li>
-                        <li class="litabs"><div>Peserta wajib mencantumkan tag : “lifestyle, pensiun”.</div></li>
-                        <li class="litabs"><div>Di dalam postingan, terdapat 2 kata &quot;jaminan hari tua&quot; &quot;jaminan pensiun&quot; dan salah satunya di hyperlink ke http://www. bpjsketenagakerjaan.go.id/ page/program/Program-Jaminan -Pensiun.html</div></li>
-                        <li class="litabs"><div>Jika ada kata “blog” salah satunya di hyperlink ke http://blog.detik.com</div></li>
-                        <li class="litabs"><div>Peserta wajib memasang banner “Lomba Blog BPJS” di dalam postingan sebagai tanda keikutsertaan kontes [HTML dari tim proman]</div></li>
-                        <li class="litabs"><div>Peserta wajib share judul dan link tulisan ke Twitter dengan hashtag #sejahteraharitua serta mention @BPJSTKinfo dan @blogdetik</div></li>
-                        <li class="litabs"><div>Kirim URL lengkap postinganmu dengan mengisi form di halaman daftar [link halaman pendaftaran microsite]</div></li>
-                        <li class="litabs"><div>BPJS Ketenagakerjaan dan blogdetik berhak untuk menggunakan (termasuk namun tidak terbatas mengedit dan memodifikasi) seluruh karya (postingan) peserta yang diikutsertakan dalam kompetisi ini.</div></li>
-                        <li class="litabs"><div>BPJS Ketenagakerjaan dan blogdetik berhak sepenuhnya untuk mendiskualifikasi peserta atau pemenang yang dianggap telah melanggar sebagian atau seluruh syarat dan ketentuan kompetisi ini.</div></li>
-                        <li class="litabs"><div>Tulisan minimal terdiri dari 500 kata dan bisa didaftarkan lebih dari satu kali.</div></li>
-                        <li class="litabs"><div>Tulisan tidak diperkenankan untuk melanggar hak kekayaan intelektual pihak manapun.</div></li>
-                        <li class="litabs"><div>Tulisan tidak boleh melanggar SARA, menjiplak tulisan orang lain maupun melanggar hukum atau aturan yang berlaku.</div></li>
-                        <li class="litabs"><div>Tulisan yang didaftarkan lebih awal akan mendapakan penilaian lebih saat penjurian.</div></li>
-                        <li class="litabs"><div>Tulisan yang tidak sesuai dengan ketentuan dan tema lomba tidak bisa diikutkan lomba.</div></li>
-                        <li class="litabs"><div>Panitia berhak mendiskualifikasi peserta dan/ atau pemenang yang dianggap melanggar sebagian atau seluruh syarat dan ketentuan kompetisi ini.</div></li>
-                        <li class="litabs"><div>Pemenang akan diumumkan di Kabar Dari Blog [ http://blog.detik.com/kabarblog ] dan social media blogdetik.</div></li>
-                        <li class="litabs"><div>Disclaimer! Hasil karya adalah di luar tanggung jawab otoritas BPJS Ketenagakerjaan dan blogdetik.</div></li>
-                        </ol>
-							</ul>
-						</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>    
-        
-<!-- Sistem Penjurian -->
-<div class="container">
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal2" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Sistem Penjurian</h4>
-        </div>
-        <div class="modal-body">
-          <div class="edit-list">
-							<ul class="list theme-colored">
-								<ol>
-                        <li class="litabs"><div>Penilaian akan dilakukan oleh tim blogdetik dan BPJS Ketenagakerjaan :<br>
-                        a. Pemenang utama: berdasarkan kualitas tulisan, kesesuaian tema dan minimal pencantuman keyword <br>
-                        b. Views terbanyak: berdasarkan views postingan terbanyak yang tercatat dalam sistem penghitungan yang dipergunakan blogdetik</div></li>
-                        <li class="litabs"><div>Para pemenang harus memenuhi semua persyaratan</div></li>
-                        <li class="litabs"><div>Kompetisi tidak berlaku untuk karyawan/keluarga BPJS Ketenagakerjaan, detikcom serta pihak ketiga yang turut terlibat dalam menyelenggarakan kompetisi ini.</div></li>
-                        <li class="litabs"><div>Pajak hadiah ditanggung oleh Pemenang. Promo ini tidak dipungut biaya. Hati-hati penipuan!</div></li>
-                        <li class="litabs"><div>Keputusan juri tidak dapat diganggu gugat!</div></li>
-                        </ol>
-							</ul>
-						</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>  
-
-<!-- Periode -->
-<div class="container">
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal3" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Periode</h4>
-        </div>
-        <div class="modal-body">
-          <div class="edit-list">
-							<ul class="list theme-colored">
-								<ol>
-                        <li class="litabs"><div>Periode lomba : 9 Januari - 9 Februari 2017</div></li>
-                        <li class="litabs"><div>Penilaian lomba : 10 - 12 Februari 2017</div></li>
-                        <li class="litabs"><div>Pengumuman pemenang : 14 Februari 2017</div></li>
-                        </ol> 
-							</ul>
-						</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>  
-        
-<!-- Rekomendasi Tema-->
-<div class="container">
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal4" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Rekomendasi Tema</h4>
-        </div>
-        <div class="modal-body">
-          <div class="edit-list">
-							<ul class="list theme-colored">
-								<ol>
-                        <li class="litabs"><div>Sejahtera di Hari Tua</div></li>
-                        <li class="litabs"><div>Tak Merana Saat Lansia</div></li>
-                        <li class="litabs"><div>Tetap Bahagia di Usia Non Produktif</div></li>
-                        </ol> 
-							</ul>
-						</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>  
+<?php require_once("modal.php"); ?>
         
 
 <!--<div class="modal fade caraIkutan in" role="dialog" tabindex="-1" style="display: block; padding-right: 15px;">
@@ -404,7 +250,7 @@
                 <!-- Contact Form - End -->
             </div>
             <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 contacts inviewport animated delay1" data-effect="fadeInUp">
-                <form action='send_email.php' method='post'><input type='text' placeholder='Twitter*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Facebook*' class='col-xs-12 transition' id='c_email' ><input type='text' placeholder='Instagram' class='col-xs-12 transition' id='c_phone' ><input type='text' placeholder='Blog URL' class='col-xs-12 transition' id='c_phone' ><!--<textarea class='col-xs-12 transition' placeholder='Kota' id='c_message' ></textarea>--><img src="img/hero-recaptcha-demo.gif" style="max-width:400px;"><div id='response_email'></div></form>
+                <form action='send_email.php' method='post'><input type='text' placeholder='Judul Blog*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Twitter*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Facebook*' class='col-xs-12 transition' id='c_email' ><input type='text' placeholder='Instagram' class='col-xs-12 transition' id='c_phone' ><input type='text' placeholder='Blog URL' class='col-xs-12 transition' id='c_phone' ><!--<textarea class='col-xs-12 transition' placeholder='Kota' id='c_message' ></textarea>--><img src="img/hero-recaptcha-demo.gif" style="max-width:300px;"><div id='response_email'></div></form>
                     </div>
                 </div>
             <center>

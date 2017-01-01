@@ -2,6 +2,7 @@
     require_once("header.php");
 ?>
     <body class=" angled  yellow">
+        <?php require_once("modal.php"); ?>
         <!-- Section Start - Header -->
         <section class="header bg-lightgray header-2" >
             <!-- Menu Top Bar - Start -->
@@ -49,16 +50,30 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-area">
-                <h2 class="heading left-align" style="font-size: 34px;padding-top: 50px;">Yuk!!</h2>
+                <h2 class="heading left-align" style="font-size: 34px;">Mau uang tunai Rp 5 juta?</h2>
                 <div class="headul left-align"></div>
                 
-                <p>Ungkapkan harapanmu dan berikan tagar #BahagiaHariTua (ungkapan bisa dalam bentuk video)</p>
+                
+                <ol>
+                        <li class="litabs"><div>Begini caranya!<br>
+                        1. Tweet harapanmu saat menjelang hari tua <br>
+                        2. Tweet tidak hanya terbatas teks, juga bisa dengan visual foto dan atau video <br>
+                        3. Mention ke @BPJSTKinfo dan @detikfinance dengan hastagh #BahagiaHariTua</div></li>
+                </ol>
+
+                <p>Ayo! Tweet sebanyak-banyaknya dan tweet yang terpilih akan tampil di microsite ini. Dengan begitu, berpeluang mendapatkan hadiah uang tunai total Rp 5 juta!</p>
+
+                <p>Ditunggu paling lambat (kapan? apakah disamakan dengan periode lomba blog? mungkin bisa koordinasi dengan tim-nya Disti)</p>
+
+                <p>Yuk! Tweet detik ini juga!</p>
                 
             <a href="http://www.twitter.com" class="btn btn-primary" target="_blank">Buka Twitter</a>       </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
                 <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
+                    <center>
                         <a class="twitter-timeline"  href="https://twitter.com/search?q=%23BahagiaHariTua%20" data-widget-id="814322466340278273">Tweets about #BahagiaHariTua </a>
                                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </center>
                     </div>
             </div>
         </div>
