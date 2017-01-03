@@ -23,7 +23,7 @@
                     <div class="left-line">
                         <h4>Blogger</h4>
                         <h2>Competition</h2>
-                        <a href="#contact" class="btn btn-primary" id="daftarsekarang">Daftar Sekarang</a> 
+                        <a href="#contact" class="btn btn-primary" id="daftarsekarang" style="padding: 6px 0px;">Daftar Sekarang</a> 
                     </div>
                 </div>
                 <div class="black-text inviewport animated delay4" data-effect="fadeInLeftBig">

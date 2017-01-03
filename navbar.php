@@ -55,7 +55,7 @@
                             <a href='hadiah.php'>Hadiah <i class='mdi'></i></a>
                             
                         </li>
-                        <li class='has-sub'>
+                        <li class="has-sub hidden-xs hidden-sm">
                             <a href="#">S &amp; K <i class="mdi mdi-chevron-down"></i></a>
                             <ul>
                                 <li>
@@ -73,6 +73,18 @@
                             </ul>
                             
                         </li>
+                            <li>
+                                <a href="#" class="visible-xs visible-sm" data-toggle="modal" data-target="#myModal">Mekanisme</a>
+                            </li>
+                            <li>
+                                <a href="#" class="visible-xs visible-sm" data-toggle="modal" data-target="#myModal2">Sistem Penjurian</a>
+                            </li>
+                            <li>
+                                <a href="#" class="visible-xs visible-sm" data-toggle="modal" data-target="#myModal3">Periode</a>
+                            </li>
+                            <li>
+                                <a href="#" class="visible-xs visible-sm" data-toggle="modal" data-target="#myModal4" style="font-size:13px;">Rekomendasi Tema</a>
+                            </li>
                         <!--
                         <li>
                             <a href='contact.html'>Contact</a>
