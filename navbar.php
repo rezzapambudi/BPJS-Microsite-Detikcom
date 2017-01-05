@@ -10,7 +10,7 @@
                                 
                             </li>
                             <li class='has-sub'>
-                                <a href='news.php'>Berita BPJS <i class='mdi'></i></a>
+                                <a href='news.php'>Berita BPJS TK <i class='mdi'></i></a>
                                 
                             </li>
                             <li class='has-sub'>
@@ -43,16 +43,16 @@
                     <div class='cssmenu'>
                         <!-- Menu - Start -->
                         <ul class='menu-ul'><li class='has-sub'>
-                            <a href='index.php#whatwhyhow'>Blog <i class='mdi'></i></a>
+                            <a href='index.php#whatwhyhow'>Peserta <i class='mdi'></i></a>
                             
                         </li>
                         <li class='has-sub'>
-                            <a href='index.php#contact'>Pendaftaran <i class='mdi'></i></a>
+                            <a href='index.php#contact' id="daftar">Pendaftaran <i class='mdi'></i></a>
                             
                         </li>
                         
                         <li class='has-sub'>
-                            <a href='hadiah.php'>Hadiah <i class='mdi'></i></a>
+                            <a href='index.php#portfolio' id="hadiah">Hadiah <i class='mdi'></i></a>
                             
                         </li>
                         <li class="has-sub hidden-xs hidden-sm">

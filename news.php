@@ -22,7 +22,7 @@
                 <div class="primary-text inviewport animated delay4" data-effect="fadeInRightBig">
                     <div class="left-line">
                         <h4>Berita</h4>
-                        <h1>BPJS</h1>
+                        <h1>BPJS TK</h1>
                     </div>
                 </div>
                 <!--
@@ -45,7 +45,7 @@
         <div class="slope upright"></div>
     </div>
       <div class="container">
-        <h3 class="heading">Berita BPJS</h3>
+        <h3 class="heading">Berita BPJS TK</h3>
             <div class="headul"></div>
         <div class="">
         

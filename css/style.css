@@ -319,7 +319,7 @@ section .bg-overlay {
 }
 
 section .bg-overlay.opacity-85 {
-    background-color: rgba(33, 33, 33, .85);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 section.parallax .container {
@@ -353,11 +353,11 @@ section.bg-image {
 
 
 section.parallax .heading {
-    color: #ffffff;
+    color: #4a4a49;
 }
 
 section.parallax .subheading {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(107, 107, 102);
 }
 
 section.padding-top-0 .container {
@@ -637,8 +637,8 @@ section.bg-primary p {
 
     .h6,
     h6 {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 7px;
+        line-height: 11px;
     }    
 
     section .container{
@@ -1536,7 +1536,7 @@ section.header .maintext .primary-text h1 {
     color: #232322;
     white-space: nowrap;
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 section.header .maintext .primary-text h4,
@@ -1545,7 +1545,7 @@ section.header .maintext .primary-text h2 {
     color: #222222;
     white-space: nowrap;
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 
@@ -3576,8 +3576,13 @@ section.capabilities {
     }
     .jdlvideo {
     padding-top: 0px !important;   
-}
-
+    }
+    section.header .maintext .primary-text h4 {
+    font-size: 12px;
+    }
+    .jrk {
+    height: 40px !important;
+    }
 }
 
 @media (max-width: 600px) {
@@ -4080,10 +4085,11 @@ form textarea {
 
 form input {
     background-color: transparent;
-    color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #82827e;
+    border: 1px solid rgb(176, 176, 175);
     height: 50px;
     padding: 10px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
@@ -4880,8 +4886,8 @@ body.horizontal section.clients{
 @media only screen and (max-width: 480px) {
     .jdlvideo {
     padding-top: 0px;   
-}
- 
+    }
+    /*.jrk {height:65px !important;}*/
 }
 
 
@@ -4899,7 +4905,7 @@ body.horizontal section.clients{
 form select {
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(176, 176, 175);
     height: 50px;
     padding: 10px;
     margin-bottom: 10px;
@@ -4911,6 +4917,7 @@ form select {
 .jdlvideo {
     padding-top: 50px;   
 }
+.jrk {height:54px;}
 
 @media (max-width: @screen-xs-min) {
   .modal-xs { width: @modal-sm; }

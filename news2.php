@@ -5,7 +5,7 @@
         <div class="slope upright"></div>
     </div>
       <div class="container">
-        <h3 class="heading">Berita BPJS</h3>
+        <h3 class="heading">Berita BPJS TK</h3>
             <div class="headul"></div>
         <div class="">
         

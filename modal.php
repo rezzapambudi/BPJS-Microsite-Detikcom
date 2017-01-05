@@ -15,7 +15,7 @@
         </div>
         <div class="modal-body">
           <div class="edit-list">
-                        <ul class="list theme-colored">
+                        <!--<ul class="list theme-colored">
 								<ol>
                         <li class="litabs"><div>Baca syarat dan ketentuan yang berlaku</div></li>
                         <li class="litabs"><div>Isi form pendaftaran dengan lengkap</div></li>
@@ -23,8 +23,8 @@
                         <li class="litabs"><div>Pemenang terpilih akan mendapatkan hadiah uang tunai dari BPJS Ketenagakerjaan</div></li>
                         
                         </ol>
-							</ul>
-							<!--<ul class="list theme-colored">
+							</ul>-->
+							<ul class="list theme-colored">
 								<ol>
                         <li class="litabs"><div>Peserta bebas menggunakan platform blog apapun (blogdetik, wordpress, blogspot,kompasiana, selfhosting, dll).</div></li>
                         <li class="litabs"><div>Peserta wajib like akun FB BPJS Ketenagakerjaan &amp; dan follow Twitter @BPJSTKinfo.</div></li>
@@ -47,7 +47,7 @@
                         <li class="litabs"><div>Pemenang akan diumumkan di Kabar Dari Blog [ http://blog.detik.com/kabarblog ] dan social media blogdetik.</div></li>
                         <li class="litabs"><div>Disclaimer! Hasil karya adalah di luar tanggung jawab otoritas BPJS Ketenagakerjaan dan blogdetik.</div></li>
                         </ol>
-							</ul>-->
+							</ul>
 						</div>
         </div>
         <div class="modal-footer">
@@ -166,3 +166,35 @@
   </div>
   
 </div>  
+
+<!-- front-->
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal5" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Selamat Datang</h4>
+        </div>
+        <div class="modal-body visible-lg visible-md hidden-sm hidden-xs">
+          <a href="index.php#contact"><img src="img/front.jpg" class="img-responsive"></a>
+        </div>
+        <div class="modal-body visible-lg visible-md hidden-sm hidden-xs">
+          <a href="testimonial.php"><img src="img/front2.jpg" class="img-responsive">
+        </div>
+        <div class="modal-body hidden-lg hidden-md visible-sm visible-xs">
+          <a href="index.php#contact"><img src="img/frontm1.jpg" class="img-responsive"></a>
+        </div>
+        <div class="modal-body hidden-lg hidden-md visible-sm visible-xs">
+          <a href="testimonial.php"><img src="img/frontm2.jpg" class="img-responsive">
+        </div>  
+      </div>
+      
+    </div>
+  </div>
+  
+</div> 

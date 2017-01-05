@@ -2,7 +2,11 @@
     require_once("header.php");
 ?>
     <body class=" angled  yellow">
-       
+        <script type="text/javascript">
+            $(window).load(function(){
+                $('#myModal5').modal('show');
+            });
+        </script>
         <!-- Section Start - Header -->
         <section class="header bg-lightgray header-2" >
             <!-- Menu Top Bar - Start -->
@@ -13,7 +17,8 @@
     <!-- Logo and Mobile Menu - End -->
     <!-- Header Slide - Start -->
     <div class="header-slide" style="position:relative;">
-        <img alt="header-banner-image" src="img/banner-2.jpg" class='header-img' style=''>
+        <img alt="header-banner-image" src="img/banner-2.jpg" class='header-img hidden-xs hidden-sm' style=''>
+        <img alt="header-banner-image" src="img/banner-3.jpg" class='header-img visible-xs visible-sm' style=''>
         <div class="overlay overlay2">
             <div class="black inviewport animated delay4" data-effect="fadeInLeftOpacity"></div>
             <div class="primary inviewport animated delay4" data-effect="fadeInRightOpacity"></div>
@@ -21,14 +26,14 @@
             <div class="maintext">
                 <div class="primary-text inviewport animated delay4" data-effect="fadeInRightBig">
                     <div class="left-line">
-                        <h4>Blogger</h4>
-                        <h2>Competition</h2>
-                        <a href="#contact" class="btn btn-primary" id="daftarsekarang" style="padding: 6px 0px;">Daftar Sekarang</a> 
+                        <h4>Bahagia Di Hari Tua</h4>
+                        <h6 style="color: #42403e;">Menangkan Hadiah Jutaan Rupiah <br>Dengan Mengikuti Blog Competition Dan Twitter Competition</h6>
+                        <a href="#" class="btn btn-primary" id="daftarsekarang" data-toggle="modal" data-target="#myModal5" style="padding: 6px 0px;">Lihat Informasi</a> 
                     </div>
                 </div>
                 <div class="black-text inviewport animated delay4" data-effect="fadeInLeftBig">
                     <div>
-                        <!--<h1>Competition</h1>-->
+                       
                     </div>
                 </div>
             </div>
@@ -95,7 +100,7 @@
     <div class="bg-overlay"></div>
     <div class="container">
         <center>
-        <h3 class="text-on-primary" style="padding-bottom:50px;color:white;">Participant Blogger Competition</h3>
+        <h3 class="text-on-primary" style="padding-bottom:50px;color:white;">Peserta Blogger Competition</h3>
         </center>
         <div class="row">
             
@@ -179,7 +184,7 @@
 <!-- Section Start - Portfolio -->
 
 <?php require_once("news2.php"); ?>
-
+<?php require_once("hadiah.php"); ?>
 				
 <div class="angled_up_inside white">
 <div class="slope upleft"></div>
