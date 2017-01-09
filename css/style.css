@@ -549,7 +549,7 @@ section.bg-primary p {
     section .headul:after{
         width: 50px;
     }
-
+    .logone{max-width: 115px !important;}
 }
 
 @media (max-width: 992px) {
@@ -600,7 +600,7 @@ section.bg-primary p {
     section .headul:after{
         width: 50px;
     }
-
+    .logone{max-width: 115px !important;}
 
 }
 
@@ -1286,13 +1286,13 @@ section.header .container .menu-mobile.open ul.menu {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    color: #212121;
+    color: #ffffff;
     text-align: center;
     background-color: #30b563;
 }
 
 .menu .black .cssmenu > ul > li > a {
-    color: #ffc107;
+    color: #ffffff;
     background-color: #212121;
 }
 
@@ -1339,7 +1339,7 @@ section.header .container .menu-mobile.open ul.menu {
 .cssmenu ul ul li a {
     width: 170px;
     font-size: 15px;
-    color: #ffc107;
+    color: #ffffff;
     padding: 0 25px;
     line-height: 40px;
     font-size: 14px;
@@ -1512,7 +1512,7 @@ section.header .maintext {
 
 section.header .maintext .primary-text {
     display: inline-block;
-    width: 60%;
+    width: 50%;
     color: #ffc107;
     float: left;
 }
@@ -1760,16 +1760,16 @@ section.header.header-small .header-img {
     }
 
     section.header .overlay .black{
-        width: 50%;
+        width: 70%;
     }
 
     section.header .overlay .primary{
-        width: 50%;
-        left: 50%;
+        width: 30%;
+        left: 80%;
     }
 
     section.header .maintext .primary-text{
-        width: 50%;        
+        width: 65%;        
         padding-left: 15px;
     }
 
@@ -1849,7 +1849,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext .primary-text div{
-        padding-right: 7px;
+        padding-right: 3px;
     }
 
     section.header .maintext .black-text div{
@@ -2547,7 +2547,7 @@ section.footer .container h4 {
 }
 
 section.footer .container .headul {
-    margin: 7px 0px 40px 0;
+    margin: 7px 0px 19px 0;
 }
 
 section.footer .container .headul:before {
@@ -4922,3 +4922,6 @@ form select {
 @media (max-width: @screen-xs-min) {
   .modal-xs { width: @modal-sm; }
 }
+
+.trans{transform: translate3d(893px, 0px, 0px) !important;}
+.trans2{transform: translate3d(893px, 219px, 0px) !important;}

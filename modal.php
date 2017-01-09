@@ -13,7 +13,7 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Mekanisme</h4>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" style="overflow-y: scroll;height: 500px;">
           <div class="edit-list">
                         <!--<ul class="list theme-colored">
 								<ol>
@@ -175,21 +175,21 @@
     <div class="modal-dialog modal-lg">
     
       <!-- Modal content-->
-      <div class="modal-content">
+      <div class="modal-content" style="height: 606px;overflow-y: scroll;">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Selamat Datang</h4>
         </div>
-        <div class="modal-body visible-lg visible-md hidden-sm hidden-xs">
-          <a href="index.php#contact"><img src="img/front.jpg" class="img-responsive"></a>
+        <div class="modal-body col-lg-6 col-md-6 visible-lg visible-md hidden-sm hidden-xs" style="padding:0px;">
+          <a data-dismiss="modal" href="index.php#contact" id="myfront"><img src="img/frontm1.jpg" class="img-responsive"></a>
         </div>
-        <div class="modal-body visible-lg visible-md hidden-sm hidden-xs">
-          <a href="testimonial.php"><img src="img/front2.jpg" class="img-responsive">
+        <div class="modal-body col-lg-6 col-md-6 visible-lg visible-md hidden-sm hidden-xs" style="padding:0px;">
+          <a href="testimonial.php"><img src="img/frontm2.jpg" class="img-responsive">
         </div>
-        <div class="modal-body hidden-lg hidden-md visible-sm visible-xs">
+        <div class="modal-body hidden-lg hidden-md visible-sm visible-xs" style="padding:0px;">
           <a href="index.php#contact"><img src="img/frontm1.jpg" class="img-responsive"></a>
         </div>
-        <div class="modal-body hidden-lg hidden-md visible-sm visible-xs">
+        <div class="modal-body hidden-lg hidden-md visible-sm visible-xs" style="padding:0px;">
           <a href="testimonial.php"><img src="img/frontm2.jpg" class="img-responsive">
         </div>  
       </div>
@@ -198,3 +198,8 @@
   </div>
   
 </div> 
+<script>
+    $( "#myfront" ).click(function() {
+        window.location.href = "#contact";
+    });
+</script>

@@ -199,3 +199,14 @@ body {
     font-weight: bold;
     display: block;
 }
+.maxw img {
+    max-width: 150px;
+    
+}
+
+.tengah {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

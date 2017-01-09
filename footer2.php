@@ -30,7 +30,7 @@
                     <!-- Twitter Widget - End -->
                     <!-- Flickr Widget - Start -->
                     <div class="col-lg-5 col-md-5 col-md-offset-2 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
-                        <h4>BPJS TK Apps</h4>
+                        <h4>BPJS Ketenagakerjaan Apps</h4>
                         <div class="headul left-align"></div>
                         <div class="row images">
                             <a href="https://itunes.apple.com/id/app/bpjstk-mobile/id834834026?l=id&mt=8" target="_blank"><div class="col-xs-6"><img src="img/available-iphone.png" class="img-responsive"></div></a>

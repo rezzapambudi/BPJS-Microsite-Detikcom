@@ -2,6 +2,7 @@
     require_once("header.php");
 ?>
     <body class=" angled  yellow">
+        <?php require_once("modal.php"); ?>
         <script type="text/javascript">
             $(window).load(function(){
                 $('#myModal5').modal('show');
@@ -18,7 +19,7 @@
     <!-- Header Slide - Start -->
     <div class="header-slide" style="position:relative;">
         <img alt="header-banner-image" src="img/banner-2.jpg" class='header-img hidden-xs hidden-sm' style=''>
-        <img alt="header-banner-image" src="img/banner-3.jpg" class='header-img visible-xs visible-sm' style=''>
+        <img alt="header-banner-image" src="img/banner-2.jpg" class='header-img visible-xs visible-sm' style=''>
         <div class="overlay overlay2">
             <div class="black inviewport animated delay4" data-effect="fadeInLeftOpacity"></div>
             <div class="primary inviewport animated delay4" data-effect="fadeInRightOpacity"></div>
@@ -27,8 +28,8 @@
                 <div class="primary-text inviewport animated delay4" data-effect="fadeInRightBig">
                     <div class="left-line">
                         <h4>Bahagia Di Hari Tua</h4>
-                        <h6 style="color: #42403e;">Menangkan Hadiah Jutaan Rupiah <br>Dengan Mengikuti Blog Competition Dan Twitter Competition</h6>
-                        <a href="#" class="btn btn-primary" id="daftarsekarang" data-toggle="modal" data-target="#myModal5" style="padding: 6px 0px;">Lihat Informasi</a> 
+                        <h6 style="color: #585755;">Sejatinya masa tua dilewatkan tanpa usaha <br>yang terlalu keras untuk memenuhi kebutuhan hidup.<br>Siapkah kita memasuki hari tua?</h6>
+                        <a href="#" class="btn btn-primary" id="daftarsekarang" data-toggle="modal" data-target="#myModal5" style="padding: 6px 0px;">Selengkapnya</a> 
                     </div>
                 </div>
                 <div class="black-text inviewport animated delay4" data-effect="fadeInLeftBig">
@@ -61,10 +62,10 @@
                 <p>Video di samping ini, sekilas informasi daripada BPJS Ketenagakerjaan. Mulai dari perbedaannya dengan JAMSOSTEK yang awalnya persero hingga menjadi layanan publik. Selain bentuk jaminan kerja, juga ada berbagai kemudahan bagi peserta BPJS Ketenagkerjaan.</p> 
                 <p>Informasi yang disampaikan secara singkat ini, tak hanya memberikan banyak manfaat dan keuntungan bagi para pekerja melainkan juga pengusaha. Banyak program mulia lainnya dalam video ini. Lebih jelasnya, tonton hingga selesai.</p>
                 
-            <!--<a href="#" class="btn btn-primary">Selengkapnya</a>-->       </div>
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>      </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
                 <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/neXkVDo5Z2g" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qblz3-cX6co" frameborder="0" allowfullscreen></iframe>
                     </div>
             </div>
         </div>
@@ -77,6 +78,39 @@
     </div>
     <!-- Angled Section - End -->
 </section>
+        
+<!--        
+<section class='madeforyou padding-top-100 padding-bottom-0 '>
+    
+    <div class="angled_down_inside white">
+        <div class="slope upleft"></div>
+        <div class="slope upright"></div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-area">
+                <h3 class="heading left-align jdlvideo">Tentang BPJS Ketenagakerjaan</h3>
+                <div class="headul left-align"></div>
+                
+                <p>Video di samping ini, sekilas informasi daripada BPJS Ketenagakerjaan. Mulai dari perbedaannya dengan JAMSOSTEK yang awalnya persero hingga menjadi layanan publik. Selain bentuk jaminan kerja, juga ada berbagai kemudahan bagi peserta BPJS Ketenagkerjaan.</p> 
+                <p>Informasi yang disampaikan secara singkat ini, tak hanya memberikan banyak manfaat dan keuntungan bagi para pekerja melainkan juga pengusaha. Banyak program mulia lainnya dalam video ini. Lebih jelasnya, tonton hingga selesai.</p>
+                
+            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>      </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
+                <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qblz3-cX6co" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="angled_up_inside white">
+        <div class="slope upleft"></div>
+        <div class="slope upright"></div>
+    </div>
+    
+</section>-->
 <!-- Section End - Made For You -->
 <!-- Section Start - Art of work -->
 
@@ -186,11 +220,8 @@
 <?php require_once("news2.php"); ?>
 <?php require_once("hadiah.php"); ?>
 				
-<div class="angled_up_inside white">
-<div class="slope upleft"></div>
-<div class="slope upright"></div>
-</div>		
-<?php require_once("modal.php"); ?>
+	
+
         
 
 <!--<div class="modal fade caraIkutan in" role="dialog" tabindex="-1" style="display: block; padding-right: 15px;">
@@ -255,7 +286,7 @@
                 <!-- Contact Form - End -->
             </div>
             <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 contacts inviewport animated delay1" data-effect="fadeInUp">
-                <form action='send_email.php' method='post'><input type='text' placeholder='Judul Blog*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Twitter*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Facebook*' class='col-xs-12 transition' id='c_email' ><input type='text' placeholder='Instagram' class='col-xs-12 transition' id='c_phone' ><input type='text' placeholder='Blog URL' class='col-xs-12 transition' id='c_phone' ><!--<textarea class='col-xs-12 transition' placeholder='Kota' id='c_message' ></textarea>--><img src="img/hero-recaptcha-demo.gif" style="max-width:300px;"><div id='response_email'></div></form>
+                <form action='send_email.php' method='post'><input type='text' placeholder='Twitter*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Facebook*' class='col-xs-12 transition' id='c_email' ><input type='text' placeholder='Instagram' class='col-xs-12 transition' id='c_phone' ><input type='text' placeholder='Judul Blog*' class='col-xs-12 transition' id='c_name' ><input type='text' placeholder='Blog URL' class='col-xs-12 transition' id='c_phone' ><!--<textarea class='col-xs-12 transition' placeholder='Kota' id='c_message' ></textarea>--><img src="img/hero-recaptcha-demo.gif" style="max-width:300px;"><div id='response_email'></div></form>
                     </div>
                 </div>
             <center>

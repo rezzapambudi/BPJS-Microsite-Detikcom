@@ -58,7 +58,7 @@
                         <li class="litabs"><div>Peserta wajib mencantumkan tag : “lifestyle, pensiun”.</div></li>
                         <li class="litabs"><div>Di dalam postingan, terdapat 2 kata &quot;jaminan hari tua&quot; &quot;jaminan pensiun&quot; dan salah satunya di hyperlink ke http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.html</div></li>
                         <li class="litabs"><div>Jika ada kata “blog” salah satunya di hyperlink ke http://blog.detik.com</div></li>
-                        <li class="litabs"><div>Peserta wajib memasang banner “Lomba Blog BPJS TK” di dalam postingan sebagai tanda keikutsertaan kontes [HTML dari tim proman]</div></li>
+                        <li class="litabs"><div>Peserta wajib memasang banner “Lomba Blog BPJS Ketenagakerjaan” di dalam postingan sebagai tanda keikutsertaan kontes [HTML dari tim proman]</div></li>
                         <li class="litabs"><div>Peserta wajib share judul dan link tulisan ke Twitter dengan hashtag #sejahteraharitua serta mention @BPJSTKinfo dan @blogdetik</div></li>
                         <li class="litabs"><div>Kirim URL lengkap postinganmu dengan mengisi form di halaman daftar [link halaman pendaftaran microsite]</div></li>
                         <li class="litabs"><div>BPJS Ketenagakerjaan dan blogdetik berhak untuk menggunakan (termasuk namun tidak terbatas mengedit dan memodifikasi) seluruh karya (postingan) peserta yang diikutsertakan dalam kompetisi ini.</div></li>

@@ -10,12 +10,23 @@
                                 
                             </li>
                             <li class='has-sub'>
-                                <a href='news.php'>Berita BPJS TK <i class='mdi'></i></a>
+                                <a href='news.php'>Berita BPJS Ketenagakerjaan <i class='mdi'></i></a>
                                 
                             </li>
                             <li class='has-sub'>
-                                <a href='testimonial.php'>Testimonial <i class='mdi'></i></a>
+                                <a href='#'>Kompetisi <i class='mdi mdi-chevron-down'></i></a>
+                                <ul>
+                                <li>
+                                    <a href="blog.php">Kompetisi Blog</a>
+                                </li>
+                                <li>
+                                    <a href="testimonial.php">Kompetisi Twitter</a>
+                                </li>
                                 
+                                <!--<li>
+                                    <a href="#" data-toggle="modal" data-target="#myModal4" style="font-size:13px;">Rekomendasi Tema</a>
+                                </li>-->
+                            </ul>
                             </li>
                             <!--
                             <li class='has-sub'>
@@ -43,7 +54,7 @@
                     <div class='cssmenu'>
                         <!-- Menu - Start -->
                         <ul class='menu-ul'><li class='has-sub'>
-                            <a href='index.php#whatwhyhow'>Peserta <i class='mdi'></i></a>
+                            <a href='index.php#whatwhyhow' id="peserta">Peserta <i class='mdi'></i></a>
                             
                         </li>
                         <li class='has-sub'>
@@ -67,9 +78,9 @@
                                 <li>
                                     <a href="#" data-toggle="modal" data-target="#myModal3">Periode</a>
                                 </li>
-                                <li>
+                                <!--<li>
                                     <a href="#" data-toggle="modal" data-target="#myModal4" style="font-size:13px;">Rekomendasi Tema</a>
-                                </li>
+                                </li>-->
                             </ul>
                             
                         </li>
@@ -82,9 +93,9 @@
                             <li>
                                 <a href="#" class="visible-xs visible-sm" data-toggle="modal" data-target="#myModal3">Periode</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#" class="visible-xs visible-sm" data-toggle="modal" data-target="#myModal4" style="font-size:13px;">Rekomendasi Tema</a>
-                            </li>
+                            </li>-->
                         <!--
                         <li>
                             <a href='contact.html'>Contact</a>
@@ -99,7 +110,7 @@
     <div class='header-logo-wrap'>
         <div class="container">
             <div class="logo col-xs-2">
-                <span><a href="index.php"><img src="img/logo.png" style="max-width:240px;" class="logone"></a></span>
+                <span><a href="index.php"><img src="img/logo.png" style="max-width:170px;" class="logone"></a></span>
             </div>
             <div class="menu-mobile col-xs-10 pull-right cssmenu">
                 <i class="mdi mdi-menu menu-toggle"></i>

@@ -54,12 +54,12 @@
                 <div class="headul left-align"></div>
                 
                 
-                <ol>
+                <ul>
                         <li class="litabs"><div>Begini caranya!<br>
                         1. Tweet harapanmu saat menjelang hari tua <br>
                         2. Tweet tidak hanya terbatas teks, juga bisa dengan visual foto dan atau video <br>
                         3. Mention ke @BPJSTKinfo dan @detikfinance dengan hastagh #BahagiaHariTua</div></li>
-                </ol>
+                </ul>
 
                 <p>Ayo! Tweet sebanyak-banyaknya dan tweet yang terpilih akan tampil di microsite ini. Dengan begitu, berpeluang mendapatkan hadiah uang tunai total Rp 5 juta!</p>
 
