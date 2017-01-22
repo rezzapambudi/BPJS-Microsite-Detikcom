@@ -37,20 +37,21 @@
                     </div>-->
                     <!-- Twitter Widget - End -->
                     <!-- Flickr Widget - Start -->
-                    <div class="col-lg-6 col-md-6 col-md-offset-2 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
-                        <h4>BPJS Ketenagakerjaan Apps</h4>
+                    <div class="col-lg-6 col-md-6 col-md-offset-1 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
+                        <h4>BPJS Ketenagakerjaan Mobile Apps</h4>
                         <div class="headul left-align"></div>
                         <div class="row images">
-                            <div class="col-md-8">
-                                <a href="https://itunes.apple.com/id/app/bpjstk-mobile/id834834026?l=id&mt=8" target="_blank">
+                            <div class="col-md-10">
                                 
-                               <img src="img/footer.png" class="img-responsive"></a>
+                                
+                               <img src="img/footer.png" class="img-responsive">
                             </div>
                             
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-2 text-center">
                                 <center>
-                                <a href="https://play.google.com/store/apps/details?id=com.mitracomm.jamsostek&hl=en" target="_blank"><img src="img/googlebutton.png" class="img-responsive tengah" style="margin-bottom:10px; max-width:180px;"></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.mitracomm.jamsostek&hl=en" target="_blank"><img src="img/available-iphone.png" class="img-responsive tengah" style="max-width:180px;"></a></center>
+                                <span><a href="https://play.google.com/store/apps/details?id=com.mitracomm.jamsostek&hl=en" target="_blank"><img src="img/googlebutton.png" class="img-responsive tengah" style="margin-bottom:10px; max-width:180px;"></a></span>
+                                <span><a href="https://itunes.apple.com/id/app/bpjstk-mobile/id834834026?l=id&mt=8" target="_blank"><img src="img/available-iphone.png" class="img-responsive tengah" style="max-width:180px;"></a></span>
+                                </center>
                             </div>
                          
                             

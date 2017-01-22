@@ -490,6 +490,10 @@ a:focus {
     color: #212121;
 }
 
+.footer a:hover {
+        color: #00b185;
+    }
+
 p {
     margin-bottom: 15px;
 }
@@ -535,8 +539,8 @@ section.bg-primary p {
 
     .h6,
     h6 {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 10px;
+        line-height: 13px;
     } 
     section .headul{
         margin: 30px auto 45px auto;
@@ -586,8 +590,8 @@ section.bg-primary p {
 
     .h6,
     h6 {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 10px;
+        line-height: 13px;
     } 
     section .headul{
         margin: 30px auto 45px auto;
@@ -1293,7 +1297,7 @@ section.header .container .menu-mobile.open ul.menu {
 
 .menu .black .cssmenu > ul > li > a {
     color: #ffffff;
-    background-color: #212121;
+    background-color: #2486a0;
 }
 
 .cssmenu > ul > li:hover > a,
@@ -1495,7 +1499,7 @@ section.header .overlay .black {
 section.header .overlay .primary {
     width: 40%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.69);
+    background-color: rgba(255, 255, 255, 0);
     opacity: 0.8;
     left: 60%;
     top: 0px;
@@ -1505,14 +1509,15 @@ section.header .overlay .primary {
 section.header .maintext {
     position: relative;
     z-index: 30;
-    padding-top: 25%;
+    padding-top: 16%;
+    padding-left: 0%;
     width: 100%;
     display: inline-block;
 }
 
 section.header .maintext .primary-text {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     color: #ffc107;
     float: left;
 }
@@ -1564,8 +1569,11 @@ section.header .maintext .primary-text h4 {
 }
 
 section.header .maintext .primary-text div {
-    padding-right: 10px;
+    padding-right: 30px;
     padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
     border-left: 10px solid #ffc107;
 }
 
@@ -1672,7 +1680,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext {
-        padding-top: 25%;
+        padding-top: 16%;
     }
     section.header.header-small .maintext {
         padding-top: 25%;
@@ -1752,7 +1760,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext{
-        padding-top: 40%;
+        padding-top: 18%;
     }
 
     section.header .maintext .primary-text div{
@@ -1779,7 +1787,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext .primary-text div{
-        padding-left: 20px;
+        padding-left: 35px;
     }
 
     section.header .container .menu-mobile i.menu-toggle{
@@ -1840,7 +1848,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext{
-        padding-top: 50%;
+        padding-top: 20%;
     }
 
     section.header .maintext .primary-text h1, section.header .maintext .black-text h1{
@@ -1875,7 +1883,7 @@ section.header.header-small .header-img {
 @media only screen and (max-width: 320px) {
 
     section.header .maintext{
-        padding-top: 40%;
+        padding-top: 22%;
     }
 
     section.header .maintext .primary-text h1, section.header .maintext .black-text h1{
@@ -1886,6 +1894,8 @@ section.header.header-small .header-img {
     section.header .maintext .primary-text div{
         border-left: 3px solid #ffc107;
         padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     section.header.header-small .maintext .primary-text h1,
@@ -4877,7 +4887,7 @@ body.horizontal section.clients{
     .jdlvideo {
     padding-top: 0px;   
 }
-    
+    .angled_down_inside .slope.upleft{top: -42px !important;}
 }
 
 
@@ -4888,6 +4898,13 @@ body.horizontal section.clients{
     padding-top: 0px;   
     }
     /*.jrk {height:65px !important;}*/
+    .notif{
+        font-size: 9px !important;
+        line-height: 17px !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+    }
+    .angled_down_inside .slope.upleft{top: -23px !important;}
 }
 
 
@@ -4915,7 +4932,7 @@ form select {
 }
 
 .jdlvideo {
-    padding-top: 50px;   
+    padding-top: 25px;   
 }
 .jrk {height:54px;}
 
@@ -4925,3 +4942,4 @@ form select {
 
 .trans{transform: translate3d(893px, 0px, 0px) !important;}
 .trans2{transform: translate3d(893px, 219px, 0px) !important;}
+

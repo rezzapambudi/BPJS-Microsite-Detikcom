@@ -135,7 +135,7 @@
 	margin-top: -18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: hidden;
+	visibility: none;
 }
 
 .fancybox-prev span {
@@ -263,7 +263,8 @@
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
 		background-image: url(../img/fancybox/fancybox_sprite@2x.png);
-		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+		background-size: 36px 152px; /*The size of the normal image, half the size of the hi-res image*/
+        opacity: 0.6;
 	}
 
 	#fancybox-loading div {

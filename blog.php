@@ -50,18 +50,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-area">
-                <h2 class="heading left-align" style="font-size: 34px;">MAU UANG TUNAI TOTAL RP 30 JUTA? </h2>
-                <div class="headul left-align"></div>
- 
-                <ul>
-                        <li class="litabs"><div>Begini caranya!<br>
-                        1. Tulis pengalaman atau opinimu yang bertemakan "BAHAGIA DI HARI TUA" <br>
-                        2. Pastikan tulisanmu sesuai dengan Syarat dan Ketentuan <br>
-                        3. Periode lomba blog tanggal 9 Januari - 9 Februari 2017 <br>
-                        4. Pemenang akan diumumkan pada tanggal 14 Januari 2017 </div></li>
-                </ul>
-                <p>Ayo! Segera daftarkan tulisanmu dan dapatkan hadiahnya detik ini juga!</p>
-            <a class="btn btn-primary" id="mekanisme" data-toggle="modal" data-target="#myModal" style="padding: 6px 0px;">Mekanisme</a>      </div>
+            <center>
+                <h3 class="heading" style="color:#146549;">MAU UANG TUNAI TOTAL RP 30 JUTA? </h3>
+                <img src="img/mekanisme-blog.png" class="img-responsive">
+                <p style="font-family: 'Permanent Marker', cursive;color: #218462;">Ayo! Segera daftarkan tulisanmu dan dapatkan hadiahnya detik ini juga!</p>
+            <a class="btn btn-primary" id="mekanisme" data-toggle="modal" data-target="#myModal" style="padding: 6px 0px;">Mekanisme</a>
+            </center>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
                 <img src="img/letsblog.png" class="img-responsive">
             </div>

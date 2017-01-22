@@ -110,7 +110,7 @@
     <div class='header-logo-wrap'>
         <div class="container">
             <div class="logo col-xs-2">
-                <span><a href="index.php"><img src="img/logo.png" style="max-width:170px;" class="logone"></a></span>
+                <span><a href="index.php"><img src="img/logo.png" style="max-width:200px;" class="logone"></a></span>
             </div>
             <div class="menu-mobile col-xs-10 pull-right cssmenu">
                 <i class="mdi mdi-menu menu-toggle"></i>
