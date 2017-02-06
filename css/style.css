@@ -1575,6 +1575,7 @@ section.header .maintext .primary-text div {
     padding-bottom: 25px;
     border-radius: 5px;
     border-left: 10px solid #ffc107;
+    
 }
 
 section.header .maintext .black-text div {
@@ -1610,7 +1611,7 @@ section.header.header-small .header-slide {
 }
 
 section.header.header-small .maintext {
-    padding-top: 25%;
+    padding-top: 17%;
 }
 
 section.header.header-small .maintext .primary-text h1,
@@ -1629,11 +1630,15 @@ section.header.header-small .header-img {
 }
 
 
+@media only screen and (max-width: 1300px) {
+    .npr{padding-right: 23%;}
+}
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {
 
-
+    .npr{padding-right: 14% !important;}
     section.header.header-small .header-img {
         margin-top: -60px;
     }
@@ -1680,7 +1685,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext {
-        padding-top: 16%;
+        padding-top: 13%;
     }
     section.header.header-small .maintext {
         padding-top: 25%;
@@ -1794,7 +1799,7 @@ section.header.header-small .header-img {
         font-size: 18px;
         line-height: 50px;
     }
-
+    .npr{padding-right: 7% !important;}
 
 
 }
@@ -1833,6 +1838,9 @@ section.header.header-small .header-img {
 
 }
 
+@media only screen and (max-width: 380px) {
+    .npr{padding-right: 7% !important;}
+}
 
 /* Extra Small Devices, Phones */
 
@@ -1848,7 +1856,7 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext{
-        padding-top: 20%;
+        padding-top: 14%;
     }
 
     section.header .maintext .primary-text h1, section.header .maintext .black-text h1{
@@ -1857,7 +1865,9 @@ section.header.header-small .header-img {
     }
 
     section.header .maintext .primary-text div{
-        padding-right: 3px;
+        padding-right: 22px;
+        padding-top: 12px;
+        padding-bottom: 8px;
     }
 
     section.header .maintext .black-text div{
@@ -1873,7 +1883,7 @@ section.header.header-small .header-img {
         font-size: 18px;
         line-height: 20px;
     }
-
+    .npr{padding-right: 10% !important;}
 
 }
 
@@ -1883,7 +1893,7 @@ section.header.header-small .header-img {
 @media only screen and (max-width: 320px) {
 
     section.header .maintext{
-        padding-top: 22%;
+        padding-top: 16%;
     }
 
     section.header .maintext .primary-text h1, section.header .maintext .black-text h1{
@@ -1893,8 +1903,8 @@ section.header.header-small .header-img {
 
     section.header .maintext .primary-text div{
         border-left: 3px solid #ffc107;
-        padding-left: 10px;
-        padding-top: 10px;
+        padding-left: 22px;
+        padding-top: 10px !important;
         padding-bottom: 10px;
     }
 
@@ -1903,7 +1913,8 @@ section.header.header-small .header-img {
         font-size: 30px;
         line-height: 20px;
     }
-
+    .npr{padding-right: 0% !important;padding-top: 0px !important;}
+    .jargon{line-height: 0px !important;}
 }
 
 
@@ -2551,7 +2562,7 @@ section.whatwhyhow .container {
 section.footer .container h4 {
     font-size: 24px;
     color: #ffffff;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin: 0px;
     line-height: 40px;
 }
@@ -3939,10 +3950,10 @@ section.services .angled_down_outside{
 
 .filter-isotope .filter-item .info .btn,
 .filter-mixitup .filter-item .info .btn {
-    width: 40px;
+    width: 110px;
     height: 40px;
     top: 50%;
-    left: 50%;
+    left: 43%;
     margin: -20px 0 0 -20px;
     position: absolute;
     font-size: 24px;
@@ -4943,3 +4954,13 @@ form select {
 .trans{transform: translate3d(893px, 0px, 0px) !important;}
 .trans2{transform: translate3d(893px, 219px, 0px) !important;}
 
+@media only screen and (min-width: 2000px) {
+    section.header .maintext .primary-text {
+    
+    width: 28%;
+}
+}
+
+.ic {
+    color: #f6f8eb;
+}

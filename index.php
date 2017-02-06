@@ -28,12 +28,13 @@
             <div class="maintext">
                 <div class="primary-text inviewport animated delay4" data-effect="fadeInRightBig">
                     <div class="left-line" style="border-left:none;background-color: rgba(255, 255, 255, 0.84);">
-                        <h4 style="font-family: 'Oswald', sans-serif;">Bahagia Di Hari Tua</h4>
+                        <h6 class="jargon" style="font-family: 'Oswald', sans-serif;padding-bottom: 10px;color: #616161;letter-spacing: 1px;">Kompetisi Blog &amp; Twitter</h6>
+                        <h4 class="jargon" style="font-family: 'Oswald', sans-serif;">Bahagia Di Hari Tua</h4>
                         <h6 style="color: #585755;">Hari tua akan tiba, ketika kondisi fisik melemah <br>dan daya pikir berkurang, sehingga tidak ideal untuk bekerja lagi.</h6>
-                        <h6 style="color: #585755;">Hari tua menjadi masa untuk menikmati jerih payah <br>di kala muda bersama keluarga, tanpa harus berusaha keras <br>untuk memenuhi kebutuhan hidup. <br>Siapkah kita?</h6>
+                        <h6 style="color: #585755;">Hari tua idealnya menjadi masa untuk menikmati jerih payah <br>di kala muda bersama keluarga, tanpa harus berusaha keras <br>untuk memenuhi kebutuhan hidup. <br>Siapkah kita?</h6>
                          
                     </div>
-                    <div class="left-line" style="border-left:none;padding-right: 19%;padding-top: 0px;">
+                    <div class="left-line npr" style="border-left:none;padding-right: 22%;padding-top: 0px;">
                         <div style="border-left:none;float: none;"><a href="#" class="btn btn-primary" id="daftarsekarang" data-toggle="modal" data-target="#myModal5" style="padding: 6px 0px;">Selengkapnya</a></div>
                     </div>
                     
@@ -61,6 +62,11 @@
     <!-- Angled Section - End -->
     <div class="container">
         <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
+                <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HbK3IQ8M8YI?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-area">
                 <h3 class="heading left-align jdlvideo">Tentang BPJS Ketenagakerjaan</h3>
                 <div class="headul left-align"></div>
@@ -69,11 +75,7 @@
                 <p>BPJS Ketenagakerjaan menyelenggarakan 4 Program perlindungan , yakni Jaminan Kecelakaan Kerja (JKK), Jaminan Kematian (JKm), Jaminan Hari Tua (JHT) dan Jaminan Pensiun (JP).</p>
                 
             <a href="#" class="btn btn-primary">Baca Selengkapnya</a>      </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
-                <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qblz3-cX6co" frameborder="0" allowfullscreen></iframe>
-                    </div>
-            </div>
+            
         </div>
     </div>
     <!-- Angled Section - Start -->
@@ -95,6 +97,7 @@
     
     <div class="container">
         <div class="row">
+            
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-area">
                 <h3 class="heading left-align jdlvideo">Bahagia Di Hari Tua</h3>
                 <div class="headul left-align"></div>
@@ -102,12 +105,13 @@
                 <p>Video di samping ini, sekilas informasi daripada BPJS Ketenagakerjaan. Mulai dari perbedaannya dengan JAMSOSTEK yang awalnya persero hingga menjadi layanan publik. Selain bentuk jaminan kerja, juga ada berbagai kemudahan bagi peserta BPJS Ketenagkerjaan.</p> 
                 <p>Informasi yang disampaikan secara singkat ini, tak hanya memberikan banyak manfaat dan keuntungan bagi para pekerja melainkan juga pengusaha. Banyak program mulia lainnya dalam video ini. Lebih jelasnya, tonton hingga selesai.</p>
                 
-                  </div>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-area">
                 <div class="embed-responsive embed-responsive-4by3" style="-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.75);box-shadow: 0px 0px 43px 2px rgba(0, 0, 0, 0.35);">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qblz3-cX6co" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qblz3-cX6co?autoplay=1" frameborder="0" allowfullscreen></iframe>
                     </div>
             </div>
+            
         </div>
     </div>
   
@@ -140,7 +144,7 @@
     <div class="bg-overlay"></div>
     <div class="container">
         <center>
-        <h3 class="text-on-primary" style="padding-bottom:50px;color:white;">Peserta Blogger Competition</h3>
+        <h3 class="text-on-primary" style="padding-bottom:50px;color:white;">Peserta Blog Competition</h3>
         </center>
         <div class="row">
             
@@ -224,7 +228,7 @@
 <!-- Section Start - Portfolio -->
 
 <?php require_once("news2.php"); ?>
-<?php require_once("hadiah.php"); ?>
+<?php require_once("hadiah2.php"); ?>
 				
 	
 
@@ -270,7 +274,7 @@
             <h3 class="heading">Daftar Lomba Blog</h3>
             <div class="headul"></div>
             <p class="subheading">Isi form di bawah ini dengan benar untuk mengikuti lomba blog dengan total hadiah Rp 30 juta.</p>
-            <p class="subheading notif" style="border: 2px solid #51b974;padding: 5px;margin-bottom: 40px;border-radius: 8px;color: #518e65;font-size: 15px;    line-height: 29px;">Terima Kasih Sudah Berpartisipasi Kompetisi Blog BPJS Ketenegakerjaan!<br>Tunggu Pengumuman Pemenang Tanggal 22 Februari 2017</p>
+            <p class="subheading notif" style="border: 2px solid #51b974;padding: 5px;margin-bottom: 40px;border-radius: 8px;color: #518e65;font-size: 15px;    line-height: 29px;">Terima Kasih Sudah Berpartisipasi Kompetisi Blog BPJS Ketenegakerjaan!<br>Tunggu Pengumuman Pemenang Tanggal 27 Februari 2017</p>
             
             <p class="subheading notif" style="border: 2px solid #d62949;padding: 5px;margin-bottom: 40px;border-radius: 8px;color: #d62949;font-size: 15px;    line-height: 29px;">Maaf, Mohon Isi Data Anda Dengan Lengkap</p>
             

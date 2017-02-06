@@ -13,14 +13,16 @@
     <!-- Logo and Mobile Menu - End -->
     <!-- Header Slide - Start -->
     <div class="header-slide" style="position:relative;">
-        <img alt="header-banner-image" src="img/banner-2.jpg" class='header-img' style=''>
+        <img alt="header-banner-image" src="img/banner-2alt1.jpg" class='header-img visible-lg visible-md hidden-xs hidden-sm' style=''>
+        <img alt="header-banner-image" src="img/banner-2alt.jpg" class='header-img hidden-xs visible-sm' style=''>
+        <img alt="header-banner-image" src="img/banner-2alt2.jpg" class='header-img visible-xs hidden-sm' style=''>
         <div class="overlay overlay2">
             <div class="black inviewport animated delay4" data-effect="fadeInLeftOpacity"></div>
             <div class="primary inviewport animated delay4" data-effect="fadeInRightOpacity"></div>
             <!-- Header Text - Start -->
             <div class="maintext">
                 <div class="primary-text inviewport animated delay4" data-effect="fadeInRightBig">
-                    <div class="left-line">
+                    <div class="left-line" style="background-color: rgba(255, 255, 255, 0.65);">
                         <h4>Kompetisi</h4>
                         <h2>Blog</h2>
                         
@@ -44,7 +46,7 @@
     <!-- Angled Section - Start -->
     <div class="angled_down_inside white">
         <div class="slope upleft"></div>
-        <div class="slope upright"></div>
+        <!--<div class="slope upright"></div>-->
     </div>
     <!-- Angled Section - End -->
     <div class="container">

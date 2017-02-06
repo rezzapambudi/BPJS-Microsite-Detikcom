@@ -15,6 +15,14 @@
                         </div>
                         <p>Mau jadi peserta BPJS Ketenagakerjaan? Silahkan <a href="https://es.bpjsketenagakerjaan.go.id/bpu-mobile/cekdaftarbaru.zul" target="_blank">klik disini</a> untuk mengisi formulir pendaftaran</p>
                         <p>Call Center 1500910</p>
+                        <a href="http://www.bpjsketenagakerjaan.go.id/" target="_blank"><p>www.bpjsketenagakerjaan.go.id</p></a>
+                        <a href="https://www.facebook.com/BPJSTKinfo/" target="_blank" class="inviewport animated delay1" data-effect="fadeInUp"><i class="mdi mdi-facebook text-on-primary ic"></i></a>
+                                <a href="https://twitter.com/BPJSTKinfo" target="_blank" class="inviewport animated delay2" data-effect="fadeInUp"><i class="mdi mdi-twitter text-on-primary ic"></i></a>
+                                
+                                <!--
+                                <a href="#" target="_blank" class="inviewport animated delay4" data-effect="fadeInUp"><i class="mdi mdi-google-plus text-on-primary"></i></a> -->
+                                <a href="https://www.youtube.com/user/BPJSTKinfo" target="_blank" class="inviewport animated delay5" data-effect="fadeInUp"><i class="mdi mdi-youtube-play text-on-primary ic"></i></a>
+                      
                     </div>
                     <!-- Text Widget - End -->
                     <!-- Twitter Widget - Start -->
@@ -38,7 +46,7 @@
                     <!-- Twitter Widget - End -->
                     <!-- Flickr Widget - Start -->
                     <div class="col-lg-6 col-md-6 col-md-offset-1 col-sm-12 col-xs-12 flickr-widget inviewport animated delay3" data-effect="fadeInUp">
-                        <h4>BPJS Ketenagakerjaan Mobile Apps</h4>
+                        <h5 style="color:#ffffff !important;">Cek Saldo JHTmu, Laporkan Ketidaksesuaiannya</h5>
                         <div class="headul left-align"></div>
                         <div class="row images">
                             <div class="col-md-10">
@@ -69,12 +77,12 @@
                                 <span class="">Copyright &copy; 2017 detikcom, All right reserved</span>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 social">
-                                <a href="https://www.facebook.com/BPJSTKinfo/" target="_blank" class="inviewport animated delay1" data-effect="fadeInUp"><i class="mdi mdi-facebook text-on-primary"></i></a>
-                                <a href="https://twitter.com/BPJSTKinfo" target="_blank" class="inviewport animated delay2" data-effect="fadeInUp"><i class="mdi mdi-twitter text-on-primary"></i></a>
-                                <a href="http://www.bpjsketenagakerjaan.go.id/" target="_blank" class="inviewport animated delay3" data-effect="fadeInUp"><i class="mdi mdi-dribbble text-on-primary"></i></a>
+                                <a href="" target="_blank" class="inviewport animated delay1" data-effect="fadeInUp"></a>
+                                <a href="" target="_blank" class="inviewport animated delay2" data-effect="fadeInUp"></a>
+                                <a href="" target="_blank" class="inviewport animated delay3" data-effect="fadeInUp"></a>
                                 <!--
                                 <a href="#" target="_blank" class="inviewport animated delay4" data-effect="fadeInUp"><i class="mdi mdi-google-plus text-on-primary"></i></a> -->
-                                <a href="https://www.youtube.com/user/BPJSTKinfo" target="_blank" class="inviewport animated delay5" data-effect="fadeInUp"><i class="mdi mdi-youtube-play text-on-primary"></i></a>
+                                <a href="" target="_blank" class="inviewport animated delay5" data-effect="fadeInUp"></a>
                             </div>
                         </div>
                     </div>

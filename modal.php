@@ -15,6 +15,7 @@
         </div>
         <div class="modal-body" style="overflow-y: scroll;height: 500px;">
           <div class="edit-list">
+              
                         <!--<ul class="list theme-colored">
 								<ol>
                         <li class="litabs"><div>Baca syarat dan ketentuan yang berlaku</div></li>
@@ -25,19 +26,23 @@
                         </ol>
 							</ul>-->
 							<ul class="list theme-colored">
+                                <h4 class="modal-title">Mekanisme Blog :</h4> <br>
 								<ol>
+                        
                         <li class="litabs"><div>Peserta bebas menggunakan platform blog apapun (blogdetik, wordpress, blogspot,kompasiana, selfhosting, dll).</div></li>
                         <li class="litabs"><div>Peserta wajib like akun FB BPJS Ketenagakerjaan &amp; dan follow Twitter <a href="https://twitter.com/BPJSTKinfo" target="_blank">@BPJSTKinfo.</a></div></li>
                         <li class="litabs"><div>Peserta harus me-like akun Facebook blogdetik dan follow Twitter <a href="https://twitter.com/blogdetik" target="_blank">@blogdetik.</a></div></li>
                         <li class="litabs"><div>Peserta adalah Warga Negara Indonesia dan tidak ada batasan usia.</div></li>
                         <li class="litabs"><div>Peserta wajib mencantumkan tag : “lifestyle, pensiun”.</div></li>
-                        <li class="litabs"><div>Di dalam postingan, terdapat 2 kata &quot;jaminan hari tua&quot; &quot;jaminan pensiun&quot; dan salah satunya di hyperlink ke <a href="http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.html" target="_blank">http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.html</a> dan <a href="http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.htm" target="_blank">http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.htm</a> </div></li>
+                        <li class="litabs"><div>Di dalam postingan, terdapat 2 kata yaitu &quot;jaminan hari tua&quot; hyperlink ke <a href="http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Hari-Tua-(JHT).html
+                        " target="_blank">http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Hari-Tua-(JHT).html
+                        </a>dan &quot;jaminan pensiun&quot; hyperlink ke <a href="http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.htm" target="_blank">http://www.bpjsketenagakerjaan.go.id/page/program/Program-Jaminan-Pensiun.htm</a> </div></li>
                         <li class="litabs"><div>Jika ada kata “blog” salah satunya di hyperlink ke <a href="http://blog.detik.com" target="_blank">http://blog.detik.com</a></div></li>
                         <li class="litabs"><div>Peserta wajib memasang banner “Lomba Blog BPJS Ketenagakerjaan” di dalam postingan sebagai tanda keikutsertaan kontes </div>
                         <div style="overflow:scroll;border: 1px solid #e6e6e6;">
                             <xmp style="margin-left: -264px;">
                                 <a href="http://microsite.detik.com/display/bpjs-msite/" target="_blank">
-                                    <img src="//cdnstatic.detik.com/live/html5/bpjstk/banner.300x250.gif">
+                                    <img src="//cdnstatic.detik.com/live/html5/bpjstk/300x250.gif">
                                 </a>
                             </xmp>
                         </div>
@@ -54,6 +59,17 @@
                         <li class="litabs"><div>Panitia berhak mendiskualifikasi peserta dan/ atau pemenang yang dianggap melanggar sebagian atau seluruh syarat dan ketentuan kompetisi ini.</div></li>
                         <li class="litabs"><div>Pemenang akan diumumkan di Kabar Dari Blog <a href="http://blog.detik.com/kabarblog" target="_blank">http://blog.detik.com/kabarblog</a> dan social media blogdetik.</div></li>
                         <li class="litabs"><div>Disclaimer! Hasil karya adalah di luar tanggung jawab otoritas BPJS Ketenagakerjaan dan blogdetik.</div></li>
+                        </ol>
+							</ul><br>
+              
+                        <ul class="list theme-colored">
+                                <h4 class="modal-title">Mekanisme twitter :</h4> <br>
+								<ol>
+                        
+                                    <li class="litabs"><div>Follow twitter <a href="https://twitter.com/detikfinance" target="_blank">@detikfinance </a>&amp; <a href="https://twitter.com/BPJSTKinfo" target="_blank">@BPJSTKinfo.</a></div></li>
+                        <li class="litabs"><div>Ungkapkan harapanmu dan berikan tagar <a href="https://twitter.com/search?f=tweets&q=%23BahagiaDiHariTua&src=typd" target="_blank">#BahagiaDiHariTua</a> (ungkapan bisa dalam bentuk video)</div></li>
+                        <li class="litabs"><div>Tag atau mention <a href="https://twitter.com/BPJSTKinfo" target="_blank">@BPJSTKinfo.</a></div></li>
+                        
                         </ol>
 							</ul>
 						</div>
@@ -124,9 +140,9 @@
           <div class="edit-list">
 							<ul class="list theme-colored">
 								<ol>
-                        <li class="litabs"><div>Periode lomba : 20 Januari - 18 Februari 2017</div></li>
-                        <li class="litabs"><div>Penilaian lomba : 20 Februari - 21 Februari 2017</div></li>
-                        <li class="litabs"><div>Pengumuman pemenang : 22 Februari 2017</div></li>
+                        <li class="litabs"><div>Periode lomba : 25 Januari - 23 Februari 2017</div></li>
+                        <li class="litabs"><div>Penilaian lomba : 23 Februari - 25 Februari 2017</div></li>
+                        <li class="litabs"><div>Pengumuman pemenang : 27 Februari 2017</div></li>
                         
                         </ol> 
 							</ul>
